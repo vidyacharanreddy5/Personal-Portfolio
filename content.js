@@ -31,8 +31,8 @@ window.CONTENT = {
         { title: 'Journey to Orbit — Episode 8', href: 'https://youtu.be/1pNlVgiAYGk?si=ttdUPCBIy_61-wNz' }
       ],   // Journey to Orbit episodes
       crewCam: [{"title": "Crew Cam 1", "href": "https://www.youtube.com/shorts/NFAGHkFzR0w"}, {"title": "Crew Cam 2", "href": "https://www.youtube.com/shorts/PVMsR0YdXZY"}, {"title": "Crew Cam 3", "href": "https://www.youtube.com/shorts/PLchGEyG870"}],
-      infinity: [{"title": "Inauguration film", "href": "https://youtu.be/jjvWL5yH-c8?si=tnRhSCyUtaaP1NFv"}],
-      flowState: []
+      infinity: [{"title": "Inauguration film", "href": "https://youtu.be/jjvWL5yH-c8?si=tnRhSCyUtaaP1NFv"}, {"title": "Infinity Campus Reel 1", "href": "https://www.youtube.com/shorts/piz-6ziXfdc"}, {"title": "Infinity Campus Reel 2", "href": "https://www.youtube.com/shorts/kGVm_xaBLeg"}, {"title": "Infinity Campus Reel 3", "href": "https://www.youtube.com/shorts/-qhzNbjyycA"}, {"title": "Infinity Campus Reel 4", "href": "https://www.youtube.com/shorts/IOsJs6JNa0A"}],
+      flowState: [{"title": "Flow State Episode 1", "href": "https://www.youtube.com/shorts/gqClfGKZs-c"}, {"title": "Flow State Episode 2", "href": "https://youtu.be/b4Z1Ye93-34?si=W5BeHx4_IdlBucsu"}]
     },
     fashion: { saleReels: [] },
     sarayu: { reels: [] },
