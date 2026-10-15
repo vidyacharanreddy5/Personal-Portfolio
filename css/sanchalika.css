@@ -5,8 +5,8 @@
 .carw{position:relative}.cb2{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;display:grid;place-items:center}.cb2:hover{background:var(--acc);color:var(--onacc);border-color:var(--acc)}.cb2.l{left:10px}.cb2.r{right:10px}.cb2 .i{width:22px;height:22px}
 .poster{display:block;position:relative;width:min(100%,600px);margin:0 auto;aspect-ratio:3/4;border-radius:18px;overflow:hidden;text-decoration:none;color:#fff;box-shadow:0 30px 70px rgba(10,6,30,.35);transition:transform .25s}
 .poster:hover{transform:translateY(-6px)}.poster img{width:100%;height:100%;object-fit:cover;display:block}
-.poster.has-cover{width:fit-content;max-width:min(100%,600px);height:auto;aspect-ratio:auto}
-.poster.has-cover img{width:auto;height:auto;max-width:100%;max-height:80vh;object-fit:contain;margin:0 auto}
+.poster.has-cover{width:min(100%,800px);height:auto;aspect-ratio:auto}
+.poster.has-cover img{display:block;width:100%;height:auto;object-fit:contain}
 .pd{height:100%;padding:34px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(160deg,#3A2A8C,#B8458F 60%,#FF9A7A)}
 .pd small{font:700 15px var(--b);opacity:.9}.pd h3{font:800 clamp(48px,9vw,88px)/.95 var(--d);letter-spacing:-.03em;margin:0}.pd p{margin:0;font-weight:500;opacity:.92}
 .poster .i{position:absolute;top:24px;right:24px;width:34px;height:34px}
