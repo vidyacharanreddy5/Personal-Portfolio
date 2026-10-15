@@ -6,7 +6,7 @@
    ============================================================ */
 window.CONTENT = {
   photos: {
-    featured: ['images/featured/DSC_0955.jpg', 'images/featured/IMG_3918.jpg', 'images/featured/IMG_5221.jpg', 'images/featured/IMG_8747.jpg', 'images/featured/Pet1.JPG', 'images/featured/PETA.jpg', 'images/featured/Sunrise.jpg'],          // home page carousel (your best photos)           images/featured/
+    featured: ['images/featured/Bird1.JPG', 'images/featured/DSC_0083.JPG', 'images/featured/DSC_0955.jpg', 'images/featured/IMG_2064.jpg', 'images/featured/IMG_2708.JPG', 'images/featured/IMG_3918.jpg', 'images/featured/IMG_5314.jpg', 'images/featured/Pet1.JPG', 'images/featured/PETA.jpg', 'images/featured/Sunrise.jpg'],          // home page carousel (your best photos)           images/featured/
     sanchalika: ['images/sanchalika/IMG_0048.jpg', 'images/sanchalika/IMG_0094.jpg', 'images/sanchalika/IMG_8768.jpg', 'images/sanchalika/IMG_8921.jpg', 'images/sanchalika/IMG_9059.jpg', 'images/sanchalika/IMG_9243.jpg', 'images/sanchalika/IMG_9608.jpg', 'images/sanchalika/IMG_9847.jpg'],        // She Sanchalika page carousel                     images/sanchalika/
     sanchalikaCover: 'images/sanchalika/cover.jpg',   // magazine cover for the poster, e.g. 'images/sanchalika/cover.jpg'
     fashionFactory: [],    // Fashion Factory photos                           images/fashion-factory/
