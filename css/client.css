@@ -56,3 +56,7 @@ a.vc:hover{filter:brightness(1.08)}
 footer{padding:24px 0 40px;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .vc.yt{cursor:pointer;background-size:cover;background-position:center}.vc.yt .i{top:50%;left:50%;right:auto;transform:translate(-50%,-50%);width:3.4em;height:3.4em}.vc.yt.on{background:#000;padding:0}.vc iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* Larger video cards on the Skyroot page. */
+.skyroot .vg:not(.reel){grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:20px}
+.skyroot .vg.reel{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px}
