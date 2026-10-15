@@ -3,9 +3,7 @@
    Empty slots show as placeholders. Change count to add or remove placeholders. */
 var CATS=[
 {id:'event',icon:'cal',title:'Event photography',intro:'Photography for corporate events, conferences, campus programmes and cultural gatherings.',groups:[
- {id:'hitex',title:'HITEX Exhibition grounds',note:'Photographer at events held at the HITEX Exhibition grounds, including Pharma India Expo 2024 and the 30th Indian Plumbing Conference 2024.',count:12,imgs:[]},
- {id:'campus',title:'College events, conferences, plays and cultural gatherings',note:'Photographer for college events, conferences, plays and cultural gatherings, including the ISACR National Workshop as Lead Photographer.',count:12,imgs:[]},
- {id:'eventOther',title:'Other event photography',note:'A selection of other event photographs.',count:0,imgs:[]}
+ {id:'eventPhotos',title:'',note:'A selection of event photography across campus programmes, conferences and exhibitions.',count:0,imgs:[]}
 ]},
 {id:'nature',icon:'leaf',title:'Nature photography',intro:'',groups:[{id:'nature',title:'',note:'',todo:'Add a one-line note on where and when these were shot',count:12,imgs:[]}]},
 {id:'street',icon:'street',title:'Street photography',intro:'',groups:[{id:'street',title:'',note:'',todo:'Add a one-line note on where and when these were shot',count:12,imgs:[]}]},
