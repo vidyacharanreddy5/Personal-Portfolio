@@ -30,8 +30,9 @@ window.CONTENT = {
         { title: 'Journey to Orbit — Episode 7', href: 'https://youtu.be/m-o-asZdP8o?si=XIPseiPj6B_8H9fp' },
         { title: 'Journey to Orbit — Episode 8', href: 'https://youtu.be/1pNlVgiAYGk?si=ttdUPCBIy_61-wNz' }
       ],   // Journey to Orbit episodes
-      crewCam: [{"title": "Crew Cam", "href": "https://youtube.com/shorts/PLchGEyG870?si=tZxdECHbkmji8P0r"}],
-      infinity: [{"title": "Inauguration film", "href": "https://youtu.be/jjvWL5yH-c8?si=tnRhSCyUtaaP1NFv"}]
+      crewCam: [{"title": "Crew Cam 1", "href": "https://www.youtube.com/shorts/NFAGHkFzR0w"}, {"title": "Crew Cam 2", "href": "https://www.youtube.com/shorts/PVMsR0YdXZY"}],
+      infinity: [{"title": "Inauguration film", "href": "https://youtu.be/jjvWL5yH-c8?si=tnRhSCyUtaaP1NFv"}],
+      flowState: []
     },
     fashion: { saleReels: [] },
     sarayu: { reels: [] },
