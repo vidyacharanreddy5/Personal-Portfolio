@@ -20,7 +20,16 @@ window.CONTENT = {
      Each entry looks like { title: 'Name', href: 'https://...' } */
   videos: {
     skyroot: {
-      journey: [],   // Journey to Orbit episodes
+      journey: [
+        { title: 'Journey to Orbit — Episode 1', href: 'https://youtu.be/6JOnQirzeII?si=IcYbDzu9qyUSCzLO' },
+        { title: 'Journey to Orbit — Episode 2', href: 'https://youtu.be/VPW3y1GGHz4?si=JsD8e3P2B9BOOtdr' },
+        { title: 'Journey to Orbit — Episode 3', href: 'https://youtu.be/cnTfrZsXi1I?si=gAlgW9coKCw_L7ea' },
+        { title: 'Journey to Orbit — Episode 4', href: 'https://youtu.be/O0t7Phump7U?si=Z9lzB-Ldfq7rwUvU' },
+        { title: 'Journey to Orbit — Episode 5', href: 'https://youtu.be/OptYaPjnuKI?si=YF8j9gH6a5jKl5Yl' },
+        { title: 'Journey to Orbit — Episode 6', href: 'https://youtu.be/wnsd2J5uJ5k?si=5Nkuc7mWMqiqg3-V' },
+        { title: 'Journey to Orbit — Episode 7', href: 'https://youtu.be/m-o-asZdP8o?si=XIPseiPj6B_8H9fp' },
+        { title: 'Journey to Orbit — Episode 8', href: 'https://youtu.be/1pNlVgiAYGk?si=ttdUPCBIy_61-wNz' }
+      ],   // Journey to Orbit episodes
       crewCam: [{"title": "Crew Cam", "href": "https://youtube.com/shorts/PLchGEyG870?si=tZxdECHbkmji8P0r"}],
       infinity: [{"title": "Inauguration film", "href": "https://youtu.be/jjvWL5yH-c8?si=tnRhSCyUtaaP1NFv"}]
     },
