@@ -84,6 +84,9 @@ h2 em{font-style:normal;color:var(--acc)}
 .vc-logo{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--bg2);border:1px solid var(--line);text-decoration:none}.vc-logo img{display:block;width:34px;height:34px;object-fit:contain}.vc-logo:hover{border-color:var(--acc)}
 .vg{display:grid;gap:16px;margin:0 0 40px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}.vg.reel{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
 .vp{border:1.5px dashed var(--line);border-radius:14px;background:linear-gradient(135deg,var(--bg2),transparent);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;color:var(--mute);font-size:14px;font-weight:500;aspect-ratio:16/9;padding:12px}.reel .vp{aspect-ratio:9/16}.vp .i{width:1.8em;height:1.8em;color:var(--lil)}.vp b{color:var(--ink)}
+.vp.drive-video{display:block;padding:0;overflow:hidden;border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+.reel .vp.drive-video{aspect-ratio:9/16}
+.drive-video iframe{display:block;width:100%;height:100%;border:0}
 .ps{font:700 22px var(--d);margin:34px 0 14px;display:flex;gap:10px;align-items:center}.ps .i{color:var(--acc)}
 .vh{max-width:720px;margin:0 0 22px;padding-left:20px}.vh li{margin-bottom:6px}
 .srs{border-bottom:1px solid var(--line)}.sr{display:grid;grid-template-columns:70px 1fr auto;gap:20px;align-items:center;padding:26px 0;border-top:1px solid var(--line)}.sr .n{font:800 34px var(--d);color:var(--line);transition:.2s}.sr:hover .n{color:var(--acc)}.sr h3{font:700 26px/1.2 var(--d);margin:0 0 4px;display:flex;gap:12px;align-items:center}.sr h3 .i{color:var(--acc)}.sr p{margin:0;color:var(--mute)}@media(max-width:780px){.sr{grid-template-columns:1fr;gap:10px}.sr .n{font-size:24px}}
@@ -124,5 +127,5 @@ footer{padding:26px 0 40px;color:var(--mute);font-size:14px;border-top:1px solid
 
 .linkedin-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:18px;margin:0 0 40px;align-items:start}
 .linkedin-embed{min-width:0;overflow:hidden;border-radius:12px;background:var(--bg2)}
-.linkedin-embed iframe{display:block;width:100%;height:590px;border:0;background:var(--bg2)}
-@media(max-width:600px){.linkedin-grid{grid-template-columns:1fr}.linkedin-embed iframe{height:620px}}
+.linkedin-embed iframe{display:block;width:100%;height:399px;border:0;background:var(--bg2)}
+@media(max-width:600px){.linkedin-grid{grid-template-columns:1fr}.linkedin-embed iframe{height:399px}}
