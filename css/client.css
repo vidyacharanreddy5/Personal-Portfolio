@@ -13,7 +13,7 @@ a{color:inherit}:focus-visible{outline:3px solid var(--lil);outline-offset:3px}
 nav{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:22px 0;flex-wrap:wrap}
 .pill{display:inline-flex;gap:8px;align-items:center;padding:10px 20px;border-radius:99px;font-weight:700;text-decoration:none;background:var(--acc);color:var(--onacc);border:1.5px solid var(--acc);font-size:15px}
 .pill.ghost{background:none;color:var(--ink);border-color:var(--line)}.pill:hover{filter:brightness(1.1)}
-.vc-logo{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--bg2);border:1px solid var(--line);text-decoration:none}.vc-logo svg{width:34px;height:34px}.vc-logo:hover{border-color:var(--acc)}
+.vc-logo{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--bg2);border:1px solid var(--line);text-decoration:none}.vc-logo img{display:block;width:34px;height:34px;object-fit:contain}.vc-logo:hover{border-color:var(--acc)}
 .hero{padding:36px 0 56px;max-width:800px}
 .hero .who{color:var(--lil);font-weight:700;margin:0 0 12px}
 .hero h1{font:800 clamp(44px,7vw,92px)/1 var(--d);letter-spacing:-.03em;margin:0 0 20px}

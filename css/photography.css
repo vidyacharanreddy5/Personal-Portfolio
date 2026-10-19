@@ -13,7 +13,7 @@ a{color:inherit}
 .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
 .i{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none;vertical-align:-.2em}
 nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;font-weight:500;font-size:15px}
-.vc-logo{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--bg2);border:1px solid var(--line);text-decoration:none}.vc-logo svg{width:34px;height:34px}.vc-logo:hover{border-color:var(--acc)}
+.vc-logo{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--bg2);border:1px solid var(--line);text-decoration:none}.vc-logo img{display:block;width:34px;height:34px;object-fit:contain}.vc-logo:hover{border-color:var(--acc)}
 .pill{display:inline-flex;gap:8px;align-items:center;padding:12px 24px;border-radius:99px;font-weight:700;text-decoration:none;background:var(--acc);color:var(--onacc);border:1.5px solid var(--acc);font-size:16px}
 .pill.ghost{background:none;color:var(--ink);border-color:var(--line)}
 .pill:hover{filter:brightness(1.1)}
