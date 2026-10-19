@@ -5,7 +5,7 @@ A plain HTML, CSS and JavaScript site. There is nothing to install or build.
 ## What's in the folder
 - `index.html`: home page
 - `photography.html`, `she-sanchalika.html`
-- `skyroot.html`, `fashion-factory.html`, `sarayu-weaves.html`, `vineeth-jewellers.html`: brand pages
+- `skyroot.html`, `fashion-factory.html`, `sarayu-weaves.html`: brand pages
 - `content.js`: **your photos and video links (the file you will edit most)**
 - `css/` and `js/`: styling and page scripts (you rarely need to touch these)
 - `images/`: put your photos here, one folder per section

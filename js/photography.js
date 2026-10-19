@@ -5,9 +5,9 @@ var CATS=[
 {id:'event',icon:'cal',title:'Event photography',intro:'Photography for corporate events, conferences, campus programmes and cultural gatherings.',groups:[
  {id:'eventPhotos',title:'',note:'A selection of event photography across campus programmes, conferences and exhibitions.',count:0,imgs:[]}
 ]},
-{id:'nature',icon:'leaf',title:'Nature photography',intro:'',groups:[{id:'nature',title:'',note:'',todo:'Add a one-line note on where and when these were shot',count:12,imgs:[]}]},
-{id:'street',icon:'street',title:'Street photography',intro:'',groups:[{id:'street',title:'',note:'',todo:'Add a one-line note on where and when these were shot',count:12,imgs:[]}]},
-{id:'other',icon:'star',title:'Other photography works',intro:'',groups:[{id:'other',title:'',note:'',todo:'Add a one-line note, for example portraits or photojournalism',count:12,imgs:[]}]}
+{id:'nature',icon:'leaf',title:'Nature photography',intro:'Wildlife, plants and natural landscapes, photographed in their everyday settings.',groups:[{id:'nature',title:'',note:'A collection of nature photographs.',count:12,imgs:[]}]},
+{id:'street',icon:'street',title:'Street photography',intro:'Candid moments, people and details from everyday life in public spaces.',groups:[{id:'street',title:'',note:'A collection of street photographs.',count:12,imgs:[]}]},
+{id:'other',icon:'star',title:'Other photography works',intro:'Editorial, portrait and photojournalism work created for publications and organisations.',groups:[{id:'other',title:'',note:'A selection of editorial and portrait photographs.',count:12,imgs:[]}]}
 ];
 var PH=((window.CONTENT||{}).photos)||{};CATS.forEach(function(c){c.groups.forEach(function(g){if(PH[g.id])g.imgs=PH[g.id]})});
 var R=['r1','r2','r3','r4','r2','r1','r3','r2','r4','r1','r2','r3'];
