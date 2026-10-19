@@ -83,6 +83,8 @@ h2 em{font-style:normal;color:var(--acc)}
 .pb a:hover{text-decoration:underline}
 .vc-logo{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--bg2);border:1px solid var(--line);text-decoration:none}.vc-logo img{display:block;width:34px;height:34px;object-fit:contain}.vc-logo:hover{border-color:var(--acc)}
 .vg{display:grid;gap:16px;margin:0 0 40px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}.vg.reel{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.vg.poseidon-long{grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:22px}
+.vg.poseidon-short{grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:22px}
 .vp{border:1.5px dashed var(--line);border-radius:14px;background:linear-gradient(135deg,var(--bg2),transparent);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;color:var(--mute);font-size:14px;font-weight:500;aspect-ratio:16/9;padding:12px}.reel .vp{aspect-ratio:9/16}.vp .i{width:1.8em;height:1.8em;color:var(--lil)}.vp b{color:var(--ink)}
 .vp.drive-video{display:block;padding:0;overflow:hidden;border:1px solid var(--line);background:#000;aspect-ratio:16/9}
 .reel .vp.drive-video{aspect-ratio:9/16}
