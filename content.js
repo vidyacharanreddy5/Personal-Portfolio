@@ -20,14 +20,14 @@ window.CONTENT = {
   videos: {
     skyroot: {
       journey: [
-        { title: 'Journey to Orbit — Episode 1', href: 'https://youtu.be/6JOnQirzeII?si=IcYbDzu9qyUSCzLO' },
-        { title: 'Journey to Orbit — Episode 2', href: 'https://youtu.be/VPW3y1GGHz4?si=JsD8e3P2B9BOOtdr' },
-        { title: 'Journey to Orbit — Episode 3', href: 'https://youtu.be/cnTfrZsXi1I?si=gAlgW9coKCw_L7ea' },
-        { title: 'Journey to Orbit — Episode 4', href: 'https://youtu.be/O0t7Phump7U?si=Z9lzB-Ldfq7rwUvU' },
-        { title: 'Journey to Orbit — Episode 5', href: 'https://youtu.be/OptYaPjnuKI?si=YF8j9gH6a5jKl5Yl' },
-        { title: 'Journey to Orbit — Episode 6', href: 'https://youtu.be/wnsd2J5uJ5k?si=5Nkuc7mWMqiqg3-V' },
-        { title: 'Journey to Orbit — Episode 7', href: 'https://youtu.be/m-o-asZdP8o?si=XIPseiPj6B_8H9fp' },
-        { title: 'Journey to Orbit — Episode 8', href: 'https://youtu.be/1pNlVgiAYGk?si=ttdUPCBIy_61-wNz' }
+        { title: 'Journey to Orbit Episode 1', href: 'https://youtu.be/6JOnQirzeII?si=IcYbDzu9qyUSCzLO' },
+        { title: 'Journey to Orbit Episode 2', href: 'https://youtu.be/VPW3y1GGHz4?si=JsD8e3P2B9BOOtdr' },
+        { title: 'Journey to Orbit Episode 3', href: 'https://youtu.be/cnTfrZsXi1I?si=gAlgW9coKCw_L7ea' },
+        { title: 'Journey to Orbit Episode 4', href: 'https://youtu.be/O0t7Phump7U?si=Z9lzB-Ldfq7rwUvU' },
+        { title: 'Journey to Orbit Episode 5', href: 'https://youtu.be/OptYaPjnuKI?si=YF8j9gH6a5jKl5Yl' },
+        { title: 'Journey to Orbit Episode 6', href: 'https://youtu.be/wnsd2J5uJ5k?si=5Nkuc7mWMqiqg3-V' },
+        { title: 'Journey to Orbit Episode 7', href: 'https://youtu.be/m-o-asZdP8o?si=XIPseiPj6B_8H9fp' },
+        { title: 'Journey to Orbit Episode 8', href: 'https://youtu.be/1pNlVgiAYGk?si=ttdUPCBIy_61-wNz' }
       ],   // Journey to Orbit episodes
       crewCam: [{"title": "Crew Cam 1", "href": "https://www.youtube.com/shorts/NFAGHkFzR0w"}, {"title": "Crew Cam 2", "href": "https://www.youtube.com/shorts/PVMsR0YdXZY"}, {"title": "Crew Cam 3", "href": "https://www.youtube.com/shorts/PLchGEyG870"}],
       infinity: [{"title": "Inauguration film", "href": "https://youtu.be/jjvWL5yH-c8?si=tnRhSCyUtaaP1NFv"}, {"title": "Infinity Campus Reel 1", "href": "https://www.youtube.com/shorts/piz-6ziXfdc"}, {"title": "Infinity Campus Reel 2", "href": "https://www.youtube.com/shorts/kGVm_xaBLeg"}, {"title": "Infinity Campus Reel 3", "href": "https://www.youtube.com/shorts/-qhzNbjyycA"}, {"title": "Infinity Campus Reel 4", "href": "https://www.youtube.com/shorts/IOsJs6JNa0A"}],

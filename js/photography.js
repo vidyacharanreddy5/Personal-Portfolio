@@ -2,12 +2,12 @@
 /* To fill a slot, put an image address (or embedded image) in that group's imgs list, in order.
    Empty slots show as placeholders. Change count to add or remove placeholders. */
 var CATS=[
-{id:'event',icon:'cal',title:'Event photography',intro:'Photography for corporate events, conferences, campus programmes and cultural gatherings.',groups:[
+{id:'event',icon:'cal',title:'Event photography',intro:'This collection features corporate events, conferences, campus programmes and cultural gatherings.',groups:[
  {id:'eventPhotos',title:'',note:'A selection of event photography across campus programmes, conferences and exhibitions.',count:0,imgs:[]}
 ]},
-{id:'nature',icon:'leaf',title:'Nature photography',intro:'Wildlife, plants and natural landscapes, photographed in their everyday settings.',groups:[{id:'nature',title:'',note:'A collection of nature photographs.',count:12,imgs:[]}]},
-{id:'street',icon:'street',title:'Street photography',intro:'Candid moments, people and details from everyday life in public spaces.',groups:[{id:'street',title:'',note:'A collection of street photographs.',count:12,imgs:[]}]},
-{id:'other',icon:'star',title:'Other photography works',intro:'Editorial, portrait and photojournalism work created for publications and organisations.',groups:[{id:'other',title:'',note:'A selection of editorial and portrait photographs.',count:12,imgs:[]}]}
+{id:'nature',icon:'leaf',title:'Nature photography',intro:'I photograph wildlife, plants and natural landscapes in their everyday settings.',groups:[{id:'nature',title:'',note:'A collection of nature photographs.',count:12,imgs:[]}]},
+{id:'street',icon:'street',title:'Street photography',intro:'This collection captures candid moments, people and details from everyday life in public spaces.',groups:[{id:'street',title:'',note:'A collection of street photographs.',count:12,imgs:[]}]},
+{id:'other',icon:'star',title:'Other photography',intro:'Explore editorial, portrait and photojournalism work created for publications and organisations.',groups:[{id:'other',title:'',note:'A selection of editorial and portrait photographs.',count:12,imgs:[]}]}
 ];
 var PH=((window.CONTENT||{}).photos)||{};CATS.forEach(function(c){c.groups.forEach(function(g){if(PH[g.id])g.imgs=PH[g.id]})});
 var R=['r1','r2','r3','r4','r2','r1','r3','r2','r4','r1','r2','r3'];
@@ -27,7 +27,7 @@ CATS.forEach(function(c){
   for(var k=0;k<n;k++){
    var src=g.imgs[k];
    if(src)h+='<figure class="slot" style="margin-bottom:16px"><img src="'+esc(src)+'" alt="'+esc((g.title||c.title)+' photo '+(k+1))+'" loading="lazy"></figure>';
-   else h+='<div class="slot ph '+R[k%R.length]+'"><svg class="i"><use href="#cam"/></svg><span><b>Photo '+(k+1<10?'0':'')+(k+1)+'</b><br>'+g.id+'</span></div>';
+   else h+='<div class="slot ph '+R[k%R.length]+'"><svg class="i"><use href="#cam"/></svg><span><b>Photo '+(k+1<10?'0':'')+(k+1)+'</b><br>Add a photo</span></div>';
   }
   h+='</div></div>';
  });

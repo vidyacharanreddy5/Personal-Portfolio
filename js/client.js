@@ -12,7 +12,7 @@ CFG.sections.forEach(function(s){
  var n=Math.max(s.count,items.length),k;
  if(s.kind==='photo'){h+='<div class="masonry">';
   for(k=0;k<n;k++){var src=items[k];
-   h+=src?'<figure class="slot"><img src="'+esc(src)+'" alt="'+esc(s.title+' photo '+(k+1))+'" loading="lazy"></figure>':'<div class="slot vp r'+(k%4)+'"><svg class="i"><use href="#cam"/></svg><span><b>Photo '+(k<9?'0':'')+(k+1)+'</b><br>Add photo</span></div>';}
+   h+=src?'<figure class="slot"><img src="'+esc(src)+'" alt="'+esc(s.title+' photo '+(k+1))+'" loading="lazy"></figure>':'<div class="slot vp r'+(k%4)+'"><svg class="i"><use href="#cam"/></svg><span><b>Photo '+(k<9?'0':'')+(k+1)+'</b><br>Add a photo</span></div>';}
   h+='</div>';}
  else{h+='<div class="vg '+(s.kind==='reel'?'reel':'')+(hasInstagramEmbeds()&&items.some(function(item){return igpath(item.href)})?' instagram':'')+'">';
   for(k=0;k<n;k++){var it=items[k],lab=(s.kind==='reel'?'Reel ':'Video ')+(k<9?'0':'')+(k+1),id=it&&yid(it.href);
